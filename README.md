@@ -1,8 +1,8 @@
-##Instalura SSR (Without Electrode)
+## Instalura SSR (Without Electrode)
 
 This project is the same as this one "[With Electrode]"(https://github.com/glaucioleonardo/instalura-ssr).
 
-##Setup
+## Setup
 Clone the project and open the terminal on current folder and then enter the code:
 ```
 npm intall
