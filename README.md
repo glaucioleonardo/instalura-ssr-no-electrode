@@ -1,3 +1,19 @@
+##Instalura SSR (Without Electrode)
+
+This project is the same as this one "[With Electrode]"(https://github.com/glaucioleonardo/instalura-ssr).
+
+##Setup
+Clone the project and open the terminal on current folder and then enter the code:
+```
+npm intall
+```
+This is going to install the project dependencies
+
+In order to start the application type the following code in terminal: 
+```
+npm start
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
