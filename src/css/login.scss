@@ -1,0 +1,37 @@
+@import '../sobre/estilos/variables';
+
+:global {
+    .main-container {
+        border-top: $footer-background solid 0.2em;
+
+        .submit-container {
+            position: relative;
+            padding-bottom: 3em;
+    
+            input {
+                &:nth-child(1) {
+                    margin-right: 0.25em;
+                }
+    
+                 &:nth-child(2) {
+                    margin-left: 0.25em;
+                }
+            }
+        }
+
+        a {
+            background-color: $footer-background;
+            width: 100%;
+            padding: 1em 0;
+            text-transform: uppercase;
+            left: 0;
+            bottom: 0;
+            position: absolute;
+            text-align: center;
+            font-size: 0.8em;
+            color: white;
+            @extend %font-family-regular;
+        }
+    }
+
+}

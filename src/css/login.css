@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+:global .main-container a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+:global .main-container {
+  border-top: #383838 solid 0.2em;
+}
+
+:global .main-container .submit-container {
+  position: relative;
+  padding-bottom: 3em;
+}
+
+:global .main-container .submit-container input:nth-child(1) {
+  margin-right: 0.25em;
+}
+
+:global .main-container .submit-container input:nth-child(2) {
+  margin-left: 0.25em;
+}
+
+:global .main-container a {
+  background-color: #383838;
+  width: 100%;
+  padding: 1em 0;
+  text-transform: uppercase;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+  font-size: 0.8em;
+  color: white;
+}
+/*# sourceMappingURL=login.css.map */

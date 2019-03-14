@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+:global .header-nav .header-nav-item .my-likes-icon, :global .header-nav .header-nav-item .about-icon, :global .header-nav .header-nav-item .logout-icon, :global .fotoAtualizacoes .fotoAtualizacoes-form .comment-sent-delete-container .fotoAtualizacoes-form-submit, :global .fotoAtualizacoes .fotoAtualizacoes-form .comment-sent-delete-container .delete-icon, :global body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+:global .header-logo {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+:global .header-nav .header-nav-item .my-likes-icon, :global .header-nav .header-nav-item .about-icon, :global .header-nav .header-nav-item .logout-icon, :global .fotoAtualizacoes .fotoAtualizacoes-form .comment-sent-delete-container .fotoAtualizacoes-form-submit, :global .fotoAtualizacoes .fotoAtualizacoes-form .comment-sent-delete-container .delete-icon {
+  border: none;
+  border-radius: 20em;
+  margin-right: 0.3em;
+  padding: 0.5em;
+  height: 2em;
+  width: 2em;
+  background-color: #2B4B6F;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  cursor: pointer;
+}
+
+:global .header-nav .header-nav-item .my-likes-icon, :global .header-nav .header-nav-item .about-icon, :global .header-nav .header-nav-item .logout-icon {
+  height: 0.7em;
+  width: 0.7em;
+  display: block;
+  padding: 0;
+  margin: 0;
+  background-size: 0.5em 0.5em;
+  background-color: transparent;
+}
+
+:global {
+  /****/
+  /*******/
+  /*****/
+  /*****/
+}
+
+:global html {
+  height: 100%;
+}
+
+:global body {
+  padding-top: 7vh;
+  background: #fafafa;
+  position: relative;
+  height: 100%;
+}
+
+:global .container {
+  padding: 0 10%;
+}
+
+:global .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 7vh;
+  border-bottom: 2px solid #aaa;
+  position: fixed;
+  top: 0;
+  width: 80%;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  background: #fff;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+:global .header-logo {
+  background: url(../images/logo-instalura.svg) no-repeat left;
+  height: 1em;
+  padding-left: 1.5em;
+  padding-bottom: .2em;
+  -webkit-filter: hue-rotate(80deg);
+          filter: hue-rotate(80deg);
+  -webkit-transition: .4s;
+  transition: .4s;
+  font-size: 2em;
+}
+
+:global .header-logo:hover {
+  -webkit-filter: hue-rotate(0);
+          filter: hue-rotate(0);
+}
+
+:global .header-busca {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 2.5em;
+}
+
+:global .header-busca-campo {
+  padding: .5em;
+  background: #fafafa;
+  border: 0.1em solid #dbdbdb;
+  color: #262626;
+}
+
+:global .header-busca-campo:focus {
+  background: #fff;
+  outline: 0px solid #ccc;
+  color: #222;
+}
+
+:global .header-busca-submit {
+  border: 0;
+  background: url(../images/busca-icone.png) center center no-repeat #069;
+  text-indent: -9999px;
+  overflow: hidden;
+  background-size: 1.5em;
+  color: #fff;
+  min-width: 2.5em;
+  height: 2.4em;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+:global .header-busca-submit:hover {
+  background-color: #5ad4c9;
+}
+
+:global .header-nav {
+  list-style: none;
+}
+
+:global .header-nav .header-nav-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+:global .header-nav .header-nav-item .my-likes-icon {
+  background-image: url(../images/s2-check.svg);
+}
+
+:global .header-nav .header-nav-item .about-icon {
+  background-image: url(../images/info.svg);
+}
+
+:global .header-nav .header-nav-item .logout-icon {
+  background-image: url(../images/logout.svg);
+}
+
+:global .header-nav-item a {
+  text-decoration: none;
+  color: #069;
+  font-size: 3em;
+}
+
+:global .header-nav-item a:hover {
+  color: #5ad4c9;
+}
+
+:global .foto {
+  background-color: #fff;
+  border: 1px solid #efefef;
+  border-radius: 3px;
+  max-width: 550px;
+  margin: 4em auto;
+}
+
+:global .foto-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2% 2%;
+}
+
+:global .foto-usuario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 10%;
+  margin-left: 0;
+  font-weight: bold;
+}
+
+:global .foto-usuario a {
+  text-decoration: none;
+  color: #069;
+  text-transform: capitalize;
+}
+
+:global .foto-usuario img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: .7em;
+}
+
+:global .foto-data {
+  color: #999;
+  font-size: 0.8em;
+}
+
+:global .foto-src {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+:global .foto-info {
+  padding: 1em;
+}
+
+:global .foto-info-likes {
+  list-style: none;
+}
+
+:global .foto-info-likes a {
+  text-decoration: none;
+  color: #069;
+  font-weight: bold;
+}
+
+:global .foto-info-likes li {
+  display: inline-block;
+}
+
+:global .foto-info-autor {
+  font-weight: bold;
+}
+
+:global .foto-info-comentarios {
+  list-style: none;
+  padding: 0;
+  line-height: 1.2;
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 1em;
+}
+
+:global .comentario {
+  margin-bottom: .6em;
+}
+
+:global .fotoAtualizacoes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 0.2em 0.2em 0.2em;
+}
+
+:global .fotoAtualizacoes .fotoAtualizacoes-like {
+  background: url(../images/s2.svg) no-repeat center center;
+  background-size: 1.5em 1.5em;
+  width: 2em;
+  height: 2em;
+  text-indent: -9999px;
+  display: inline-block;
+  -webkit-transition: .4s;
+  transition: .4s;
+  margin-right: 1em;
+}
+
+:global .fotoAtualizacoes .fotoAtualizacoes-like-ativo {
+  background: url(../images/s2-check.svg) no-repeat center center;
+  background-size: 1.5em 1.5em;
+  width: 2em;
+  height: 2em;
+  text-indent: -9999px;
+  display: inline-block;
+  -webkit-transition: .4s;
+  transition: .4s;
+  margin-right: 1em;
+}
+
+:global .fotoAtualizacoes .fotoAtualizacoes-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+:global .fotoAtualizacoes .fotoAtualizacoes-form .comment-sent-delete-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 100%;
+  padding: 0.3em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+
+:global .fotoAtualizacoes .fotoAtualizacoes-form .comment-sent-delete-container .fotoAtualizacoes-form-submit {
+  background-image: url(../images/sent-icon.svg);
+}
+
+:global .fotoAtualizacoes .fotoAtualizacoes-form .comment-sent-delete-container .delete-icon {
+  background-image: url(../images/delete-icon.svg);
+  background-color: #AA3939;
+}
+
+:global .fotoAtualizacoes .fotoAtualizacoes-form .fotoAtualizacoes-form-campo {
+  border: 0;
+  outline: 0;
+  width: 60%;
+}
+
+:global .timeline-enter {
+  opacity: 0.01;
+}
+
+:global .timeline-enter.timeline-enter-active {
+  opacity: 1;
+  -webkit-transition: opacity 500ms ease-in;
+  transition: opacity 500ms ease-in;
+}
+
+:global .timeline-leave {
+  opacity: 1;
+}
+
+:global .timeline-leave.timeline-leave-active {
+  opacity: 0.01;
+  -webkit-transition: opacity 300ms ease-in;
+  transition: opacity 300ms ease-in;
+}
+/*# sourceMappingURL=timeline.css.map */
